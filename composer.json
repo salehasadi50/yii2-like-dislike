@@ -1,0 +1,28 @@
+{
+  "name": "salehasadi/yii2-like-dislike",
+  "description": "Complete like-dislike management system",
+  "keywords": [
+    "yii2","like-dislike management","like-dislike"
+  ],
+  "type": "yii2-extension",
+  "homepage": "http://www.yiimodules.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "salehasadi",
+      "email": "salehasadi@gmail.com",
+      "homepage": ""
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.2",
+    "yiisoft/yii2": "*",
+
+  },
+  "autoload": {
+        "psr-4": {
+            "salehasadi\\like-dislike\\": ""
+        }
+    }  
+}
